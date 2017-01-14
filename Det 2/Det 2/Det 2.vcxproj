@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{14A3F9F1-FFFA-418D-A22C-9A820C167183}</ProjectGuid>
-    <RootNamespace>WyznacznikMacierzy</RootNamespace>
+    <ProjectGuid>{850F1FF6-3EE0-4B9B-B565-3153D8EB9BFD}</ProjectGuid>
+    <RootNamespace>Det2</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -110,11 +110,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp" />
+    <ClInclude Include="Matrix.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="determinant.h" />
-    <ClInclude Include="datautils.h" />
+    <ClCompile Include="Matrix.cpp" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

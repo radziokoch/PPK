@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{14A3F9F1-FFFA-418D-A22C-9A820C167183}</ProjectGuid>
-    <RootNamespace>WyznacznikMacierzy</RootNamespace>
+    <ProjectGuid>{06AABF80-343C-4B07-8E0B-93B61AA9B04B}</ProjectGuid>
+    <RootNamespace>ToJestProjektDlaKwaka</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -111,10 +111,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Source.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="determinant.h" />
-    <ClInclude Include="datautils.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

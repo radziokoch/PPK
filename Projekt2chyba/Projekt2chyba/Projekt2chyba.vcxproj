@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{14A3F9F1-FFFA-418D-A22C-9A820C167183}</ProjectGuid>
-    <RootNamespace>WyznacznikMacierzy</RootNamespace>
+    <ProjectGuid>{F0A5A1DB-BF90-4310-904C-1940D64A6BDF}</ProjectGuid>
+    <RootNamespace>Projekt2chyba</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -110,11 +110,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DataStructures.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="determinant.h" />
-    <ClInclude Include="datautils.h" />
+    <ClInclude Include="DataStructures.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
