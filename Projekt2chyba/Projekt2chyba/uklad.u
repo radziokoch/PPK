@@ -1,0 +1,5 @@
+IN A B C
+OUT F
+XNOR D E F
+XOR A B D
+XNOR B C E

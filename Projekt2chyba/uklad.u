@@ -1,0 +1,5 @@
+IN A B C
+OUT F
+OR D E F
+AND A B D
+OR B C E

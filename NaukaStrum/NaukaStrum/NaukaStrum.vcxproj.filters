@@ -18,17 +18,11 @@
     <ClCompile Include="Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DataStructures.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="DataStruct.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DataStructures.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="DataStruct.h">
       <Filter>Header Files</Filter>
     </ClInclude>

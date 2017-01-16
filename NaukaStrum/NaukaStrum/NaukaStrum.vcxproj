@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{F0A5A1DB-BF90-4310-904C-1940D64A6BDF}</ProjectGuid>
-    <RootNamespace>Projekt2chyba</RootNamespace>
+    <ProjectGuid>{B86E1C48-F7F6-4B86-A5A5-F799848B0CC6}</ProjectGuid>
+    <RootNamespace>NaukaStrum</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -111,12 +111,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DataStruct.cpp" />
-    <ClCompile Include="DataStructures.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DataStruct.h" />
-    <ClInclude Include="DataStructures.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
